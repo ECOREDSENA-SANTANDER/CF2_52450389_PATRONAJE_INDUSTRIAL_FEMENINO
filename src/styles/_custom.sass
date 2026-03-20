@@ -198,7 +198,7 @@ figcaption
   font-size: 1em !important
   font-weight: 400 !important
   line-height: 1.5 !important
-  color: #11263F !important 
+  color: black !important 
 .tarjeta-audio.color-acento-botones
     border-color: #FE9554
 .tarjeta-audio 
@@ -513,43 +513,39 @@ figcaption
 
 //////////////////////////////////////TABLAS////////////////////////////////////
 
-.tabla-a
-  thead
+
+.tabla-a thead 
     border-top: none
     color: white
     background-color: #371138
-  th
-    border-color: #371138
-  
-table.tabla-a.tab1
-  width: 100%
-  table-layout: fixed
-  word-break: break-word
-  hyphens: auto
-  -webkit-hyphens: auto
-  -ms-hyphens: auto
-  border: none
-  border-collapse: collapse
-  td, th
-    white-space: normal
-    vertical-align: top
-    text-align: left
-    padding: 16px 15px
-    overflow-wrap: break-word
-    border: none
-  thead th
-    padding: 20px 15px
+.tabla-a th
+  border-color: #371138
+  text-align: left
+.tabla-a
+  table th
+    padding: 18px 15px
+  table td 
+    padding: 18px 15px
+.tabla-a
+  table
+    width: 100%
+    table-layout: auto
+    th, td
+      overflow-wrap: break-word
+      white-space: normal
+      vertical-align: top
+      text-align: left
+      border: none
+
+
+.tabla-a.tab1
   tbody
+    //td:first-child
+      font-weight: bold
     td
-      border-right: 1px solid #e0e0e0
-    td:last-child
-      border-right: none
-  th:nth-child(1)
-    width: 22%
-  th:nth-child(2)
-    width: 44%
-  th:nth-child(3)
-    width: 34%
+      border-left: 2.5px solid #e0e0e0
+    td:first-child
+      border-left: none
   th:nth-child(1)
     width: 18%
   th:nth-child(2)
@@ -561,29 +557,14 @@ table.tabla-a.tab1
 .bl
   background-color: white
 
-table.tabla-a.tab2
-  width: 100%
-  table-layout: fixed
-  word-break: break-word
-  hyphens: auto
-  -webkit-hyphens: auto
-  -ms-hyphens: auto
-  border: none
-  border-collapse: collapse
-  td, th
-    white-space: normal
-    vertical-align: top
-    text-align: left
-    padding: 16px 15px
-    overflow-wrap: break-word
-    border: none
-  thead th
-    padding: 20px 15px
+.tabla-a.tab2
   tbody
+    //td:first-child
+      font-weight: bold
     td
-      border-right: 1px solid #e0e0e0
-    td:last-child
-      border-right: none
+      border-left: 2.5px solid #e0e0e0
+    td:first-child
+      border-left: none
   th:nth-child(1)
     width: 18%
   th:nth-child(2)
@@ -659,14 +640,6 @@ table.tabla-a.tab4
   th:nth-child(4)
     width: 20%
 
-
-.tabla-a.tab9
-  thead
-    border-top: 6px solid #7b1fa2
-    color: white
-    background-color: #4a0060
-  th
-    border: none
 
 table.tabla-a.tab5
   width: 100%

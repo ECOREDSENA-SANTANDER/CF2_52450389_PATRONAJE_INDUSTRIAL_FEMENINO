@@ -66,9 +66,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p.mb-2 Se invita a explorar el PDF 
-              h4.mb-0 Pasos para el trazo de la base superior
+              p.mb-0 Pasos para el trazo de la base superior
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/4_Pasos_para_el_trazo_de_la_base_superior.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
 

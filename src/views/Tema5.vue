@@ -16,12 +16,12 @@
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 La comprobación del patrón base consiste en verificar que las medidas, líneas y proporciones del molde correspondan correctamente a las dimensiones corporales y a los parámetros técnicos establecidos.
-            br
-            br
-            h3.mb-0 Corte, ensamblaje y comprobación del patrón base femenino talla 8 (corpiño + manga básica)
+            
+    .sub.p-2.mb-4(data-aos="fade-left")
+      h4.mb-0.text-white.ps-3.pe-3 Corte, ensamblaje y comprobación del patrón base femenino talla 8 (corpiño + manga básica)
 
     
-    p.mb-5 Este proceso tiene por objetivo verificar que el corpiño y la manga básica en talla¬8 reproducen fielmente las medidas antropométricas y holguras estándar, garantizando equilibrio, comodidad y viabilidad industrial antes de escalar o diseñar transformaciones. Por lo anterior, se partirá del patrón del corpiño y manga básica.
+    p.mb-5 Este proceso tiene por objetivo verificar que el corpiño y la manga básica en talla 8 reproducen fielmente las medidas antropométricas y holguras estándar, garantizando equilibrio, comodidad y viabilidad industrial antes de escalar o diseñar transformaciones. Por lo anterior, se partirá del patrón del corpiño y manga básica.
 
 
     .titulo.mb-5(data-aos="fade-left")
@@ -34,8 +34,8 @@
         .titulo-sexto
           h5 Tabla 8.
           | Materiales, insumos y herramientas para el proceso de comprobación 
-        .table-responsive.mb-2
-          table.tabla-a.tab5
+        .tabla-a.tab5.mb-2
+          table
             thead
               tr
                 th Área
@@ -75,8 +75,8 @@
         .titulo-sexto.mb-4
           h5 Tabla 9.
           | Parámetros de las dimensiones del patrón base
-        .table-responsive
-          table.tabla-a.tabp
+        .tabla-a.tabp
+          table
             thead
               tr
                 th Parámetro
@@ -140,7 +140,7 @@
               p.mb-0.my-2.text-white Confrontar la longitud de sisa frente + espalda con la curva de la manga (diferencia ≤ 0,3 cm).
             li.d-flex.mb-0
               i.fas.fa-lightbulb.bla
-              p.mb-0.my-2.text-white Confirmar perpendicularidad de “centro frente” y “centro atrás” respecto a la línea de cintura
+              p.mb-0.my-2.text-white Confirmar perpendicularidad de “centro frente” y “centro atrás” respecto a la línea de cintura.
 
 
     .titulo.mb-5(data-aos="fade-left")
@@ -195,8 +195,8 @@
         .titulo-sexto.mb-3
           h5 Tabla 10.
           | Pasos del proceso de corte del patrón base
-        .table-responsive.mb-1
-          table.tabla-a.tabp1
+        .tabla-a.tabp1.mb-1
+          table
             thead
               tr
                 th.text-center Paso
@@ -307,7 +307,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .bg2.p-4.p-lg-5
-          p.mb-0 #[b Nota:] stay-stitch es un término utilizado en el patronaje que hace referencia a una línea de puntadas que se cose en un margen de costura que comprende una sola capa de tela para evitar que los bordes curvos o al sesgo se estiren.
+          p.mb-0 #[b Nota:] #[em stay-stitch] es un término utilizado en el patronaje que hace referencia a una línea de puntadas que se cose en un margen de costura que comprende una sola capa de tela para evitar que los bordes curvos o al sesgo se estiren.
 
 
     .titulo.mb-5(data-aos="fade-left")
@@ -322,8 +322,8 @@
         .titulo-sexto.mb-4
           h5 Tabla 12.
           | Lista de chequeo de los elementos del corpiño
-        .table-responsive
-          table.tabla-a.tabp3
+        .tabla-a.tabp3
+          table
             thead
               tr
                 th Ítem
@@ -356,7 +356,7 @@
                 td OK / Ajustar.
               tr.bgr
                 td Escote.
-                td Plano, sin gape.
+                td Plano, sin #[em gape].
                 td OK / Ajustar.
               tr
                 td Costado.
@@ -371,8 +371,8 @@
         .titulo-sexto.mb-4
           h5 Tabla 13.
           | Lista de chequeo por items
-        .table-responsive.mb-lg-5
-          table.tabla-a.tabp4
+        .tabla-a.tabp4.mb-lg-5
+          table
             thead
               tr
                 th Ítem
@@ -474,8 +474,8 @@
         .titulo-sexto.mb-3
           h5 Tabla 14.
           | Registro de observaciones
-        .table-responsive
-          table.tabla-a.tabp5
+        .tabla-a.tabp5
+          table
             thead
               tr
                 th Documento
@@ -492,7 +492,7 @@
                 td Imagen + descripción.
               tr.bgr
                 td #[b Patrones definitivos]
-                td Corpiño T 8 versión final, manga T 8 versión final.
+                td Corpiño T-8 versión final, manga T-8 versión final.
                 td Cartapacio rígido rotulado.
         figcaption Fuente: SENA, (2025)
       .col-lg-5.d-none.d-lg-block
@@ -514,8 +514,8 @@
         .titulo-sexto.mb-3
           h5 Tabla 15.
           | Recomendaciones en ajuste de errores comunes
-        .table-responsive
-          table.tabla-a.tab6
+        .tabla-a.tab6
+          table
             thead
               tr
                 th Zona
@@ -623,8 +623,8 @@
         .titulo-sexto.mb-3
           h5 Tabla 16.
           | Lista de abreviaturas y símbolos
-        .table-responsive
-          table.tabla-a.tab7
+        .tabla-a.tab7
+          table
             thead
               tr
                 th Abreviatura / Símbolo
@@ -654,7 +654,7 @@
               tr
                 td #[b v1, v2, v3…]
                 td Versión del patrón.
-                td Indicador de iteraciones sucesivas tras cada ciclo de prueba y ajuste (ejemplo: "T 8 v2").
+                td Indicador de iteraciones sucesivas tras cada ciclo de prueba y ajuste (ejemplo: "T-8 v2").
               tr.bgr
                 td #[b #[em Stay stitch] ——]
                 td Costura de estabilizado.

@@ -44,8 +44,8 @@
         .titulo-sexto
           h5 Tabla 1. 
           | Aportes del patronaje en la elaboración de prendas
-        .table-responsive
-          table.tabla-a.tab1
+        .tabla-a.tab1
+          table
             thead
               tr
                 th Dimensión
@@ -82,7 +82,7 @@
                 td Contribuye a prácticas de producción responsable y a la generación de menos residuos.
               tr
                 td Digitalización y archivo
-                td Facilita la migración a software CAD y la creación de bibliotecas de patrones reutilizables.
+                td Facilita la migración a #[em software] CAD y la creación de bibliotecas de patrones reutilizables.
                 td Acelera futuras colecciones y respalda la trazabilidad documental.
         figcaption Fuente: SENA, (2025)
 
@@ -94,8 +94,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-3 Clasificación de las medidas
-              p.mb-0 Conozca sobre los sistemas de medidas empleados en la confección de prendas de vestir.
+              h4.mb-3 Conceptos de prepatronaje
+              p.mb-0 Consulta las generalidades del patronaje y sus diferentes métodos
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Pasos_para_definir_el_patronaje.pdf')" target="_blank")
                 span Descargar 
@@ -221,8 +221,8 @@
         .titulo-sexto
           h5 Tabla 2. 
           | Comparativo entre patronaje industrial y sobre medidas
-        .table-responsive
-          table.tabla-a.tab2
+        .tabla-a.tab2
+          table
             thead
               tr
                 th Dimensión
@@ -247,7 +247,7 @@
                 td No (cada prenda es un único tamaño).
               tr.bgr
                 td #[b N.º de pruebas]
-                td 0 – 1 (size set piloto).
+                td 0 – 1 (#[em size set] piloto).
                 td 2 – 4 muestras por encargo.
               tr
                 td #[b Tecnología]
@@ -267,7 +267,7 @@
                 td Revisión total pieza por pieza.
               tr
                 td #[b Aplicaciones típicas]
-                td #[em Fast fashion], uniformes, marcas de retail.
+                td #[em Fast fashion], uniformes, marcas de #[em retail].
                 td Alta costura, sastrería #[em bespoke], vestuario escénico.
         figcaption Fuente. SENA, (2025)
 
@@ -311,7 +311,7 @@
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
             img.my-1(src='@/assets/curso/tema1/17.svg' alt='AvatarTop')
           .col-lg-10.col-md-10
-            p.mb-0 El Manual de Patronaje del SENA constituye un documento técnico elaborado por especialistas en el área de confección, con el propósito de establecer una metodología estructurada para el desarrollo de patrones a partir del análisis antropométrico y funcional del cuerpo humano. Este recurso orienta la comprensión de los principios técnicos del patronaje, facilitando la interpretación de medidas corporales y su traducción en estructuras bidimensionales aplicables a la elaboración de prendas.
+            p.mb-0 El Manual de patronaje del SENA constituye un documento técnico elaborado por especialistas en el área de confección, con el propósito de establecer una metodología estructurada para el desarrollo de patrones a partir del análisis antropométrico y funcional del cuerpo humano. Este recurso orienta la comprensión de los principios técnicos del patronaje, facilitando la interpretación de medidas corporales y su traducción en estructuras bidimensionales aplicables a la elaboración de prendas.
         p.mb-0 Su contenido se organiza de manera progresiva, permitiendo fortalecer las competencias relacionadas con la construcción de básicos, el desarrollo de moldes y la aplicación de procesos de escalado, conforme a los estándares formativos y productivos del sector confección. Para ampliar la información, se recomienda consultar el manual en su versión oficial, disponible a través de los medios institucionales del SENA.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/18.png' alt='AvatarTop')
@@ -401,21 +401,21 @@
             .col-12.mb-4.my-3
               img.img-a.img-t(src='@/assets/curso/tema1/21.png' alt='AvatarTop')
           h4.text-center.mb-4 Escala 1:1 
-          p.mb-0.text-center (representación en tamaño real)
+          p.mb-0.text-center (Representación en tamaño real.)
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg13.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-3
               img.img-a.img-t(src='@/assets/curso/tema1/22.png' alt='AvatarTop')
           h4.text-center.mb-4  Escala 1:2 
-          p.mb-0.text-center (representación a la mitad del tamaño real)
+          p.mb-0.text-center (Representación a la mitad del tamaño real.)
       .col-lg-3.col-md-6
         .h-100.bg14.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-3
               img.img-a.img-t(src='@/assets/curso/tema1/23.png' alt='AvatarTop')
           h4.text-center.mb-4 Escala 1:4 
-          p.mb-0.text-center (representación a la cuarta parte del tamaño real)
+          p.mb-0.text-center (Representación a la cuarta parte del tamaño real.)
     
 
     p.mb-5 El trazo a escala constituye una herramienta útil para comprender la estructura del patrón antes de su desarrollo definitivo.
@@ -462,7 +462,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-3 Se invita a explorar el PDF – Manual de patronaje 
+              p.mb-3 Se invita a explorar el PDF – Manual de patronaje 
               p.mb-0 “básico e interpretación de diseños”. 
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")

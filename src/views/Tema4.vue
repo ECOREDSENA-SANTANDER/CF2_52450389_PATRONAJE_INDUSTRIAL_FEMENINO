@@ -36,8 +36,8 @@
         .titulo-sexto
           h5 Tabla 3.
           | Paso 2 del trazo del pantalón femenino
-        .table-responsive
-          table.tabla-a.tab3
+        .tabla-a.tab3
+          table
             thead
               tr
                 th.text-center Paso
@@ -83,8 +83,8 @@
         .titulo-sexto
           h5 Tabla 4.
           | Paso 2 del trazo del pantalón femenino
-        .table-responsive
-          table.tabla-a.tab3
+        .tabla-a.tab3
+          table
             thead
               tr
                 th.text-center Paso
@@ -149,8 +149,8 @@
         .titulo-sexto
           h5 Tabla 5.
           | Paso 3 del trazo del pantalón femenino
-        .table-responsive
-          table.tabla-a.tab4
+        .tabla-a.tab4
+          table
             thead
               tr
                 th.text-center Paso
@@ -234,8 +234,8 @@
         .titulo-sexto
           h5 Tabla 6.
           | Pasos del trazo de la falda delantera
-        .table-responsive
-          table.tabla-a.tab4
+        .tabla-a.tab4
+          table
             thead
               tr
                 th.text-center Paso
@@ -315,8 +315,8 @@
         .titulo-sexto
           h5 Tabla 7.
           | Trazo del posterior de la falda
-        .table-responsive
-          table.tabla-a.tab4
+        .tabla-a.tab4
+          table
             thead
               tr
                 th.text-center Paso
