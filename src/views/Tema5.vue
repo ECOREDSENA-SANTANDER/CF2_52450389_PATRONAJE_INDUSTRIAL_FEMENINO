@@ -7,7 +7,6 @@
         span 5
       h1 Comprobación del patrón base
 
-
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
         .bloque-texto-g.color-acento-botones.p-3.p-lg-5.p-md-4
@@ -20,16 +19,13 @@
     .sub.p-2.mb-4(data-aos="fade-left")
       h4.mb-0.text-white.ps-3.pe-3 Corte, ensamblaje y comprobación del patrón base femenino talla 8 (corpiño + manga básica)
 
-    
-    p.mb-5 Este proceso tiene por objetivo verificar que el corpiño y la manga básica en talla 8 reproducen fielmente las medidas antropométricas y holguras estándar, garantizando equilibrio, comodidad y viabilidad industrial antes de escalar o diseñar transformaciones. Por lo anterior, se partirá del patrón del corpiño y manga básica.
-
+    p.mb-5(data-aos="fade-right") Este proceso tiene por objetivo verificar que el corpiño y la manga básica en talla 8 reproducen fielmente las medidas antropométricas y holguras estándar, garantizando equilibrio, comodidad y viabilidad industrial antes de escalar o diseñar transformaciones. Por lo anterior, se partirá del patrón del corpiño y manga básica.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 A. Materiales, insumos y herramientas
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 8.
@@ -64,18 +60,16 @@
                 td Archivar patrones y evidencias fotográficas.
         figcaption Fuente: SENA, (2025)
 
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 B. Requerimientos previos necesarios. 
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5
         .titulo-sexto.mb-4
           h5 Tabla 9.
           | Parámetros de las dimensiones del patrón base
-        .tabla-a.tabp
+        .tabla-a.tabla-peq.tabla1
           table
             thead
               tr
@@ -107,7 +101,6 @@
       .col-lg-7.d-none.d-lg-block
         img(src='@/assets/curso/tema5/2.png' alt='AvatarTop')
     
-
     .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
       .col-lg-5.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg22.p-lg-5.p-4.h-100
@@ -129,7 +122,6 @@
             li.d-flex.mb-0
               i.fas.fa-lightbulb
               p.mb-0.my-2 Bajo manga 3 cm.
-
       .col-lg-5.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
         .bg23.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema5/4.svg')
@@ -142,13 +134,11 @@
               i.fas.fa-lightbulb.bla
               p.mb-0.my-2.text-white Confirmar perpendicularidad de “centro frente” y “centro atrás” respecto a la línea de cintura.
 
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 C. Preparación del patrón base
     
-
-    .row.justify-content-center.align-items-stretch.mb-5
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img.h-100(src='@/assets/curso/tema5/5.png')
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -184,18 +174,16 @@
               i.fas.fa-lightbulb
               p.mb-0.my-2 Puño: 24 cm (12 cm cada lado) y bajo recto.
 
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 D. Proceso de corte
-
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-sexto.mb-3
           h5 Tabla 10.
           | Pasos del proceso de corte del patrón base
-        .tabla-a.tabp1.mb-1
+        .tabla-a.tabla-peq.tabla2.mb-1
           table
             thead
               tr
@@ -221,13 +209,11 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema5/8.svg' alt='AvatarTop')
     
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 E. Construcción del prototipo
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="Ensamblaje manual (alta costura)")
@@ -259,8 +245,8 @@
               .titulo-sexto.mb-4
                 h5 Tabla 11.
                 | Orden del proceso de ensamblaje del prototipo
-              .table-responsive
-                table.tabla-a.tabp2
+              .tabla-a.tabla-peq.tabla3.mb-1
+                table
                   thead
                     tr
                       th.text-center Orden
@@ -303,26 +289,23 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema5/9.png' alt='AvatarTop')
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg2.p-4.p-lg-5
           p.mb-0 #[b Nota:] #[em stay-stitch] es un término utilizado en el patronaje que hace referencia a una línea de puntadas que se cose en un margen de costura que comprende una sola capa de tela para evitar que los bordes curvos o al sesgo se estiren.
-
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 F. Prueba y evaluación 
 
-    
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
       .col-lg-6.mb-lg-0.mb-5
         .sub.p-2.mb-4(data-aos="fade-left")
           h4.mb-0.text-white.ps-3.pe-3 • Lista de chequeo del corpiño básico 
         .titulo-sexto.mb-4
           h5 Tabla 12.
           | Lista de chequeo de los elementos del corpiño
-        .tabla-a.tabp3
+        .tabla-a.tabla-peq.tabla4
           table
             thead
               tr
@@ -363,15 +346,13 @@
                 td Perpendicular al piso.
                 td OK / Ajustar.
         figcaption Fuente: SENA, (2025)
-
-
       .col-lg-6
         .sub.p-2.mb-4(data-aos="fade-left")
           h4.mb-0.text-white.ps-3.pe-3 • Lista de chequeo del corpiño + manga
         .titulo-sexto.mb-4
           h5 Tabla 13.
           | Lista de chequeo por items
-        .tabla-a.tabp4.mb-lg-5
+        .tabla-a.tabla-peq.tabla5.mb-lg-5
           table
             thead
               tr
@@ -401,13 +382,11 @@
                 td OK / Ajustar.
         figcaption Fuente: SENA, (2025)
 
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 G. Transferencia de ajustes
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         .bg2.p-lg-5.p-4
           ol.lista-ol--cuadro
@@ -434,13 +413,11 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema5/10.png', alt='')
 
-    
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 H. Criterios de aprobación final 
 
-
-    .bg4.p-4.mb-5
+    .bg4.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-6
           img.img-a.img-t.mb-lg-0.mb-4(src="@/assets/curso/tema5/11.svg")
@@ -463,18 +440,16 @@
                 span d
               p.mb-0 Costuras verticales y horizontales equilibradas.
 
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 I. Registro y archivo de las observaciones
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-7
         .titulo-sexto.mb-3
           h5 Tabla 14.
           | Registro de observaciones
-        .tabla-a.tabp5
+        .tabla-a.tabla-peq.tabla6
           table
             thead
               tr
@@ -498,18 +473,15 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema5/12.png' alt='AvatarTop')
 
-    
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 J. Recomendaciones
 
-    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema5/13.png' alt='AvatarTop')
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-3
           h5 Tabla 15.
@@ -524,71 +496,71 @@
                 th Ajuste sobre el patrón
             tbody
               tr
-                td(rowspan='2') #[b Corpiño – busto]
+                td.cet(rowspan='2') #[b Corpiño – busto]
                 td.bgr Arrugas horizontales que tiran hacia el centro del busto.
                 td.bgr Falta de holgura o pinza de busto insuficiente.
                 td.bgr
                   p • Añadir 0,5 cm – 1 cm al costado en la línea de busto y redibujar sisa.
-                  p • Profundizar la pinza busto 0,5 cm por cada lado.
+                  p.mb-0 • Profundizar la pinza busto 0,5 cm por cada lado.
               tr
                 td Bolsas verticales debajo del busto.
                 td Pinza de busto demasiado profunda o vértice llega al punto busto.
                 td
                   p • Reducir la profundidad de la pinza 0,5 cm – 1 cm.
-                  p • Retrasar el vértice 1 cm–1,5 cm hacia el costado.
+                  p.mb-0 • Retrasar el vértice 1 cm–1,5 cm hacia el costado.
               tr
-                td(rowspan='2') #[b Corpiño – cintura]
+                td.cet(rowspan='2') #[b Corpiño – cintura]
                 td.bgr Exceso de tela (bolsa) en cintura espalda.
                 td.bgr Pinza de cintura poco profunda.
-                td.bgr • Aumentar la profundidad de la pinza cintura espalda 0,5 cm – 1 cm.
+                td.bgr.mb-0 • Aumentar la profundidad de la pinza cintura espalda 0,5 cm – 1 cm.
               tr
                 td Tirantez en cintura delantera.
                 td Falta de holgura o pinza busto muy grande.
                 td • Comprobar tabla de medidas; añadir 0,5 cm en cada costado a nivel cintura.
               tr
-                td(rowspan='2') #[b Corpiño – hombro / sisa]
+                td.cet(rowspan='2') #[b Corpiño – hombro / sisa]
                 td.bgr Sisa pellizca o limita el movimiento.
                 td.bgr Sisa demasiado alta o curva muy cerrada.
                 td.bgr
                   p • Bajar la sisa 0,5 cm y suavizar la curva con regla francesa.
-                  p • Añadir 0,3 cm de holgura en costado superior.
+                  p.mb-0 • Añadir 0,3 cm de holgura en costado superior.
               tr
                 td Hueco / #[em gape] en sisa delantera.
                 td Sisa demasiado profunda o pinza busto insuficiente.
                 td
                   p • Subir la sisa 0,5 cm.
-                  p • Profundizar pinza busto 0,3 – 0,5 cm.
+                  p.mb-0 • Profundizar pinza busto 0,3 – 0,5 cm.
               tr
-                td #[b Corpiño – escote]
+                td.cet #[b Corpiño – escote]
                 td.bgr Escote delantero se abre (#[em gape]).
                 td.bgr Escote demasiado recto o largo de hombro excesivo.
                 td.bgr
                   p • Reducir 0,5 cm en la línea de escote desde el hombro y redistribuir curva.
-                  p • Ajustar inclinación de hombro si es necesario.
+                  p.mb-0 • Ajustar inclinación de hombro si es necesario.
               tr
-                td(rowspan='2') #[b Corpiño – costado]
+                td.cet(rowspan='2') #[b Corpiño – costado]
                 td Costado inclinado hacia adelante.
                 td Exceso de ancho en espalda / falta en delantero.
                 td • Mover la costura costado 0,5 cm –1 cm hacia la espalda en la línea de cintura y busto.
               tr.bgr
                 td Costado inclinado hacia atrás.
                 td Exceso de ancho en delantero / falta en espalda.
-                td • Mover la costura costado 0,5 cm – 1 cm hacia el delantero.
+                td.mb-0 • Mover la costura costado 0,5 cm – 1 cm hacia el delantero.
               tr
-                td(rowspan='2') #[b Manga – corona]
+                td.cet(rowspan='2') #[b Manga – corona]
                 td "Orejas" o puntas en la cima de la manga.
                 td Embebido insuficiente o corona demasiado alta.
                 td
                   p • Reducir altura de corona 0,5 cm – 1 cm y suavizar curva.
-                  p • Añadir hilera de frunce para distribuir embebido.
+                  p.mb-0 • Añadir hilera de frunce para distribuir embebido.
               tr.bgr
                 td Frunces visibles o pliegues en corona.
                 td Exceso de embebido o corona muy baja.
                 td
                   p • Aumentar altura de corona 0,5 cm –1 cm.
-                  p • Disminuir frunce retirando 0,5 cm en la costura de manga desde piquete delantero a piquete espalda.
+                  p.mb-0 • Disminuir frunce retirando 0,5 cm en la costura de manga desde piquete delantero a piquete espalda.
               tr
-                td(rowspan='2') #[b Manga – bíceps]
+                td.cet(rowspan='2') #[b Manga – bíceps]
                 td Tirantez al doblar el brazo.
                 td Ancho de manga insuficiente en bíceps.
                 td • Abrir la costura bajo manga 0,5 cm (total +1 cm) y suavizar hacia puño.
@@ -597,7 +569,7 @@
                 td Ancho de manga excesivo.
                 td • Reducir 0,5–1 cm en cada lado de la costura bajo manga y suavizar hacia puño.
               tr
-                td(rowspan='2') #[b Manga – puño]
+                td.cet(rowspan='2') #[b Manga – puño]
                 td Puño muy ancho (cae).
                 td Ancho de puño excesivo.
                 td • Reducir puño 0,5 cm por lado y comprobar longitud de costura bajo manga.
@@ -607,18 +579,15 @@
                 td • Aumentar puño 0,5 cm por lado y prolongar costura bajo manga.
         figcaption Fuente: SENA, (2025)
         
-    
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 K. Lista de abreviaturas y símbolos a tener en cuenta
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema5/14.png' alt='AvatarTop')
 
-
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-3
           h5 Tabla 16.
@@ -676,6 +645,7 @@
                 td Márgenes de costura.
                 td Distancias agregadas al contorno del patrón según la zona (costados, sisas, cintura, bajo de manga).
         figcaption Fuente: SENA, (2025)
+
 
 </template>
 

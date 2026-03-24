@@ -7,7 +7,6 @@
         span 3
       h1 Piezas complementarias
 
-
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
         .bloque-texto-g.color-primario.p-3.p-lg-5.p-md-4
@@ -17,8 +16,7 @@
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 Las piezas complementarias, como cuellos, bolsillos, tapas y otros componentes estructurales, cumplen una función relevante tanto en la configuración formal como en el desempeño funcional de la prenda. Estos elementos contribuyen a definir la estructura, facilitar el uso y responder a requerimientos específicos de diseño y funcionalidad.
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6
         .row.justify-content-center.align-items.mb-4
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
@@ -29,8 +27,7 @@
       .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema3/3.png' alt='AvatarTop')
 
-
-    .tarjeta.color-primario.des.p-4.mb-5(data-aos="fade-left")
+    .tarjeta.color-primario.des.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img.img-a.img-t.mx-lg-2(src="@/assets/curso/tema1/5.svg")
@@ -43,13 +40,10 @@
                 span Descargar 
                 i.fas.fa-file-download
 
-
     h4.mb-4(data-aos="fade-right") Video – Trazo de escotes y tipo de cuellos
-
 
     p.mb-4(data-aos="fade-left") Paso a paso para el trazo de escotes y tipos de cuellos. 
     
-
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")           
       .col-lg-12
         figure

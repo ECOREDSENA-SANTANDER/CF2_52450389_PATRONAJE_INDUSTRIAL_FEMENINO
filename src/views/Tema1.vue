@@ -7,7 +7,6 @@
         span 1
       h1 Patronaje
 
-
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4
@@ -17,8 +16,7 @@
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 El patronaje traduce las formas tridimensionales del cuerpo a superficies bidimensionales, de modo que la arquitectura de la prenda quede trazada sobre planos precisos. Este proceso constituye la fase estructural del diseño de moda: a partir de líneas, contornos y ejes de aplome se generan los moldes que, al cortarse y ensamblarse, recuperan el volumen original con exactitud. Un buen patronaje no solo garantiza ajuste y comodidad, sino que también optimiza el consumo de material, facilita el escalado de tallas y sienta las bases para cualquier transformación creativa posterior.
 
-    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6.mb-lg-0.mb-4
         .titulo-sexto
           h5 Figura 1. 
@@ -32,14 +30,12 @@
         .bg2.p-4
           img.img-a.img-t.mb-lg-1.mt-lg-1(src='@/assets/curso/tema1/4.svg' alt='Desarrollo plano de un volumen cúbico compuesto por seis caras unidas. La estructura organiza las superficies para permitir el plegado y la conformación de un cuerpo tridimensional.')
           
-    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg3.p-4.p-lg-5
           p.mb-0 El patronaje cumple una función estratégica en todo el ciclo de diseño, desarrollo y producción de indumentaria. Su utilidad va mucho más allá de “pasar el cuerpo a planos técnicos”; constituye el puente operativo entre la idea creativa y la prenda terminada. A continuación, se detallan sus principales aportes:
 
-    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 1. 
@@ -86,8 +82,7 @@
                 td Acelera futuras colecciones y respalda la trazabilidad documental.
         figcaption Fuente: SENA, (2025)
 
-
-    .tarjeta.color-primario.des.p-4.mb-5(data-aos="fade-left")
+    .tarjeta.color-primario.des.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img.img-a.img-t.mx-lg-2(src="@/assets/curso/tema1/5.svg")
@@ -101,29 +96,24 @@
                 span Descargar 
                 i.fas.fa-file-download
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         img(src='@/assets/curso/tema1/6.png' alt='AvatarTop')
 
-    
-    p.mb-5 El patronaje se clasifica en dos grandes modalidades según su finalidad productiva: patronaje industrial y patronaje sobre medidas. La primera se orienta a la fabricación en serie bajo parámetros estandarizados, mientras que la segunda responde a procesos personalizados que atienden características específicas de una persona usuaria.
-
+    p.mb-5(data-aos="fade-right") El patronaje se clasifica en dos grandes modalidades según su finalidad productiva: patronaje industrial y patronaje sobre medidas. La primera se orienta a la fabricación en serie bajo parámetros estandarizados, mientras que la segunda responde a procesos personalizados que atienden características específicas de una persona usuaria.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 A. Patronaje industrial
     
-
-    .bg4.p-4.mb-5
+    .bg4.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-6.mb-lg-0.mb-4
           img.img-a.img-t(src="@/assets/curso/tema1/7.png")
         .col-lg-6
           p.mb-0 El patronaje industrial parte del estudio antropométrico de la figura corporal en su tridimensionalidad y traduce esta información a representaciones bidimensionales, ya sea mediante trazado manual sobre papel o a través de #[em software] especializado como Audaces 360, Optitex, Gerber o Lectra, herramientas ampliamente empleadas en la industria de la confección. Este procedimiento técnico permite estructurar moldes base, realizar transformaciones y optimizar tiempos de desarrollo.
     
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8.pe-lg-0
         .row.justify-content-center.g-0
           .col-lg-12
@@ -139,8 +129,7 @@
       .col-lg-4.ps-lg-0.d-none.d-lg-block
         img(src="@/assets/curso/tema1/8.svg")
 
-    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/tema1/9.png")
       .col-lg-8
@@ -165,13 +154,11 @@
               i.fas.fa-lightbulb
               p.mb-0.my-2 Desarrollo de propuestas alineadas con gamas comerciales y segmentos del sistema moda.
 
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 B. Patronaje sobre medidas
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         .row.justify-content-center.align-items.mb-4
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
@@ -183,7 +170,6 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/11.png' alt='AvatarTop')
 
-    
     TabsC.color-primario.mb-5(data-aos="fade-left")
       .bg7.p-lg-5.p-4(titulo="Levantamiento en plano")
         .row.justify-content-center.align-items-center.mb-0
@@ -202,8 +188,7 @@
               .col-lg-6
                 p.mb-0 Técnica que consiste en construir directamente la prenda o su base estructural sobre un maniquí, facilitando el desarrollo de drapeados, plisados y configuraciones complejas. Este método se utiliza con frecuencia en prendas de ceremonia, vestidos de fiesta, sastrería, diseño infantil y propuestas con alto nivel de detalle estructural.
     
-
-    .bg8.p-lg-5.p-4.mb-5
+    .bg8.p-lg-5.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-6.mb-lg-0.mb-4
           .titulo-sexto
@@ -215,8 +200,7 @@
           p.mb-4 Dentro de los procesos productivos del sector confección, las fichas técnicas constituyen instrumentos fundamentales para la organización y estandarización del trabajo. Estos documentos estructuran de manera detallada las especificaciones del producto, los materiales requeridos, la secuencia de ensamblaje y los parámetros técnicos necesarios para su elaboración.
           p.mb-0 Su implementación facilita la comunicación entre las diferentes áreas involucradas en la producción, favoreciendo coherencia en los procedimientos, control de calidad y uniformidad en los resultados. De este modo, la ficha técnica se consolida como un soporte operativo indispensable para garantizar precisión y consistencia en la fabricación de prendas.
           
-
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 2. 
@@ -276,14 +260,12 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Procedimiento y entorno
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5
         img(src='@/assets/curso/tema1/16.svg', alt='')
       .col-lg-7
         .bg9.p-lg-5.p-4
           p.mb-0.mb-lg-2.mt-lg-3.mx-lg-4 Para garantizar el desarrollo de una prenda que responda a los requerimientos específicos de la persona usuaria, resulta necesario seguir una secuencia organizada de procedimientos que permitan asegurar coherencia técnica, precisión estructural y calidad en el resultado final. Esta secuencia facilita la correcta interpretación de las medidas corporales, la construcción adecuada de los patrones y la ejecución eficiente del proceso de confección. En este sentido, se establece el siguiente procedimiento:
-
 
     .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-around.align-items-center
@@ -304,8 +286,7 @@
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Metodología y manual de patronaje SENA
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         .row.justify-content-center.align-items.mb-4
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
@@ -315,7 +296,6 @@
         p.mb-0 Su contenido se organiza de manera progresiva, permitiendo fortalecer las competencias relacionadas con la construcción de básicos, el desarrollo de moldes y la aplicación de procesos de escalado, conforme a los estándares formativos y productivos del sector confección. Para ampliar la información, se recomienda consultar el manual en su versión oficial, disponible a través de los medios institucionales del SENA.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/18.png' alt='AvatarTop')
-
 
     .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-around.align-items-center
@@ -331,21 +311,18 @@
                 span Descargar 
                 i.fas.fa-file-download
 
-
     separador
     #t_1_3.titulo-segundo.mb-5
       h2 1.3 Metodología y convenciones
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img.d-none.d-lg-block(src='@/assets/curso/tema1/19.png', alt='')
         .bg10.p-4
           p.mb-4.mx-lg-4 Dentro del proceso de patronaje, el uso de convenciones gráficas constituye un elemento fundamental para garantizar la correcta interpretación técnica de los patrones y su adecuada aplicación durante las fases de corte y confección. Estos símbolos permiten identificar de manera precisa las características estructurales de cada pieza, facilitando la comunicación entre las diferentes etapas del proceso productivo sin depender exclusivamente de descripciones textuales.
           p.mb-0.mx-lg-4 Al realizar el despiece de un patrón, cada componente debe incorporar información técnica clara que permita su reconocimiento y correcta utilización. Entre los elementos indispensables se encuentran:
 
-    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/20.png', alt='')
       .col-lg-9
@@ -390,8 +367,7 @@
           p.mb-0 De manera complementaria, pueden incorporarse indicaciones adicionales relacionadas con procesos específicos, como ubicación de estampación, variaciones de material, cambios cromáticos, acabados especiales o localización de componentes funcionales como bolsillos o aberturas.
         p.mb-0 En cuanto al procedimiento de construcción, el trazo del patrón se fundamenta en el uso de formas geométricas básicas, tales como líneas horizontales, verticales y perpendiculares, así como figuras como rectángulos, ángulos rectos, diagonales y curvas. Estas referencias permiten establecer estructuras precisas que responden a las dimensiones corporales previamente definidas. Toda construcción parte de un rectángulo base, el cual integra el contorno principal y el largo total de la prenda.
   
-
-    .row.justify-content-center.align-items-stretch.mb-5
+    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
       .col-lg-3.mb-lg-0.mb-4
         .h-100.bg12.p-4
           p.mb-0.mx-lg-3 El uso de escalas facilita la representación proporcional de los patrones, permitiendo trabajar tanto en tamaño real como en formatos reducidos para fines pedagógicos o de análisis técnico. Las escalas más empleadas corresponden a:
@@ -417,11 +393,9 @@
           h4.text-center.mb-4 Escala 1:4 
           p.mb-0.text-center (Representación a la cuarta parte del tamaño real.)
     
+    p.mb-5(data-aos="fade-left") El trazo a escala constituye una herramienta útil para comprender la estructura del patrón antes de su desarrollo definitivo.
 
-    p.mb-5 El trazo a escala constituye una herramienta útil para comprender la estructura del patrón antes de su desarrollo definitivo.
-
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         p.mb-4 Para la correcta ejecución del trazo, se recomienda el uso de herramientas técnicas que garanticen precisión y control en la construcción del patrón, entre las cuales se incluyen:
         .bg1.p-4.p-lg-5.mb-4
@@ -453,7 +427,6 @@
         p.mb-0 Estas convenciones y herramientas permiten estructurar el patrón con precisión técnica, favoreciendo la correcta interpretación, reproducción y aplicación en los procesos de confección.
       .col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/tema1/24.png")
-
 
     .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-around.align-items-center

@@ -7,7 +7,6 @@
         span 4
       h1 Patronaje de pantalón y falda
 
-    
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
       .col-lg-12
         .bloque-texto-g.color-primario.t4.p-3.p-lg-5.p-md-4
@@ -17,11 +16,9 @@
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 El patronaje de pantalón y falda femenina corresponde al proceso técnico mediante el cual se construyen los moldes base que representan la estructura corporal desde la cintura hasta la región inferior del cuerpo. Este procedimiento se fundamenta en el análisis de medidas antropométricas como cintura, cadera, tiro y largo, las cuales permiten establecer proporciones precisas y garantizar una adecuada adaptación de la prenda. 
     
+    p.mb-5(data-aos="fade-left") En el caso del pantalón, el patrón integra elementos estructurales como líneas de tiro, entrepierna, rodilla y bota, que facilitan la movilidad y el ajuste funcional. Por su parte, el patrón de falda se organiza a partir de la relación entre cintura y cadera, incorporando pinzas como recurso técnico para distribuir el volumen y lograr correspondencia con la configuración corporal. A continuación, se relacionan los trazos de las bases de pantalón y falda con sus respectivos pasos. 
 
-    p.mb-5 En el caso del pantalón, el patrón integra elementos estructurales como líneas de tiro, entrepierna, rodilla y bota, que facilitan la movilidad y el ajuste funcional. Por su parte, el patrón de falda se organiza a partir de la relación entre cintura y cadera, incorporando pinzas como recurso técnico para distribuir el volumen y lograr correspondencia con la configuración corporal. A continuación, se relacionan los trazos de las bases de pantalón y falda con sus respectivos pasos. 
-
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg2.p-4.mb-2
           .titulo-sexto
@@ -30,8 +27,7 @@
           img.img-a.img-t(src='@/assets/curso/tema4/2.svg' alt='Esquema técnico del patrón base de pantalón paso 1, que identifica el rectángulo inicial, la línea de cadera, la línea de quiebre y las referencias de medida para la construcción estructural del molde.')
         figcaption Fuente: SENA, (2021)
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 3.
@@ -67,8 +63,7 @@
                 td Medidas base del patrón.
         figcaption Fuente. SENA, (2025)
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg2.p-4.mb-2
           .titulo-sexto
@@ -77,8 +72,7 @@
           img.img-a.img-t(src='@/assets/curso/tema4/3.svg' alt='Esquema técnico del patrón base de pantalón femenino paso 2 que identifica la línea de profundidad de cadera, la línea de profundidad de tiro, la línea de rodilla y las curvas estructurales para la construcción del molde.')
         figcaption Fuente: SENA, (2021)
 
-    
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 4.
@@ -128,8 +122,7 @@
                 td Confirmar que las líneas horizontales y curvas se mantengan alineadas respecto a la línea de quiebre.
                 td Línea de quiebre como eje.
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg2.p-4.mb-2
           .titulo-sexto
@@ -138,13 +131,11 @@
           img.img-a.img-t(src='@/assets/curso/tema4/4.svg' alt='Esquema técnico del patrón de pantalón femenino paso 3 que identifica la distribución de medidas en cintura, cadera, tiro, rodilla y bota, así como la ubicación de pinzas y ajustes laterales para la construcción del molde.')
         figcaption Fuente: SENA, (2021)
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         img(src='@/assets/curso/tema4/5.png' alt='AvatarTop')
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 5.
@@ -199,10 +190,8 @@
                 td Confirmar que las líneas laterales e internas mantengan coherencia con la línea de quiebre y las medidas establecidas.
                 td Línea de quiebre como eje.
 
-
-    h4.mb-4(data-aos="fade-right") Video – Trazo de prendas inferiores – pantalón
+    h4.mb-4(data-aos="fade-left") Video – Trazo de prendas inferiores – pantalón
     
-
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")           
       .col-lg-12
         figure
@@ -210,13 +199,11 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/oBsuCQmODcc?si=SnsGpmQBA2dlFHEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
         figcaption Video. TRAZO DE PRENDAS INFERIORES - PANTALÓN
 
-
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Trazo de la falda
     
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4
         .bg21.p-4.p-lg-5.mb-lg-0.mb-4
           img.img-t.img-a.mb-lg-2.mb-4(src='@/assets/curso/tema4/7.svg' alt='AvatarTop')
@@ -228,8 +215,7 @@
             | Trazo del posterior de la falda
           img.img-a.img-t.mb-4(src='@/assets/curso/tema4/6.svg' alt='Esquema técnico del patrón de pantalón femenino paso 3 que identifica la distribución de medidas en cintura, cadera, tiro, rodilla y bota, así como la ubicación de pinzas y ajustes laterales para la construcción del molde.')
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 6.
@@ -294,8 +280,7 @@
                 td Confirmar la correspondencia entre cintura, cadera y largo, garantizando precisión estructural del patrón delantero.
                 td Relación cintura – cadera – largo.        
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg2.p-4.mb-2
           .titulo-sexto
@@ -304,13 +289,11 @@
           img.img-a.img-t(src='@/assets/curso/tema4/8.svg' alt='Esquema técnico del patrón delantero de falda que identifica la distribución de medidas en cintura y cadera, la ubicación de la pinza delantera y el largo total como referencias para la construcción del molde.')
         figcaption Fuente: SENA, (2025)
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         img(src='@/assets/curso/tema4/9.png' alt='AvatarTop')
 
-
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto
           h5 Tabla 7.
@@ -377,8 +360,7 @@
         
     h4.mb-4(data-aos="fade-right") Se invita a explorar los siguientes recursos: 
 
-
-    .row.justify-content.align-items-start.mb-4
+    .row.justify-content.align-items-start.mb-4(data-aos="fade-left")
       .col-lg-5
         ul.lista-ul
           li.d-flex.mb-0
@@ -390,13 +372,19 @@
             i.fas.fa-lightbulb
             p.mb-0.my-2 Video - Trazo de faldas rotondas.
 
-            
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")           
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")           
       .col-lg-12
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/xtyPQh3vtuc?si=XY6dabXCAnAocOeJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
         figcaption Video. TRAZO DE FALDA Y MODIFICACIÓN DE BÁSICOS DE FALDA
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")           
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/NxZQL369p9Q?si=MSh1VMMfOiztXjAW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video. TRAZO DE FALDAS ROTONDAS
 
 
 </template>
