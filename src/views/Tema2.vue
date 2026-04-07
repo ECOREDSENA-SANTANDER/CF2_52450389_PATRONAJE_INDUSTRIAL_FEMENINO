@@ -59,7 +59,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p.mb-2 #[b Se invita a explorar el PDF]
-              p.mb-0 Pasos para el trazo de la base superior
+              p.mb-0 Pasos para el trazo de la base superior.
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/4_Pasos_para_el_trazo_de_la_base_superior.pdf')" target="_blank")
                 span Descargar 
@@ -74,7 +74,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-2 #[b Se invita a explorar el PDF] - Manual de patronaje básico e interpretación de diseños
+              p.mb-2 #[b Se invita a explorar el PDF] - Manual de patronaje básico e interpretación de diseños.
               p.mb-0 Patrón base superior femenino. Ir a la página 20 a 25.
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
@@ -204,7 +204,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-3 PDF- Aspectos clave en el trazo de la manga
-              p.mb-0 Conoce cómo la anatomía y la ergonomía influyen en el trazo del patrón de la manga para mujer
+              p.mb-0 Conoce cómo la anatomía y la ergonomía influyen en el trazo del patrón de la manga para mujer.
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/5_Aspectos_clave_para_el_trazo_de_la_manga.pdf')" target="_blank")
                 span Descargar 

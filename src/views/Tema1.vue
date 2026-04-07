@@ -90,7 +90,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-3 Conceptos de prepatronaje
-              p.mb-0 Consulta las generalidades del patronaje y sus diferentes métodos
+              p.mb-0 Consulta las generalidades del patronaje y sus diferentes métodos.
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Pasos_para_definir_el_patronaje.pdf')" target="_blank")
                 span Descargar 
@@ -377,21 +377,21 @@
             .col-12.mb-4.my-3
               img.img-a.img-t(src='@/assets/curso/tema1/21.png' alt='AvatarTop')
           h4.text-center.mb-4 Escala 1:1 
-          p.mb-0.text-center (Representación en tamaño real.)
+          p.mb-0.text-center (Representación en tamaño real).
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg13.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-3
               img.img-a.img-t(src='@/assets/curso/tema1/22.png' alt='AvatarTop')
           h4.text-center.mb-4  Escala 1:2 
-          p.mb-0.text-center (Representación a la mitad del tamaño real.)
+          p.mb-0.text-center (Representación a la mitad del tamaño real).
       .col-lg-3.col-md-6
         .h-100.bg14.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-3
               img.img-a.img-t(src='@/assets/curso/tema1/23.png' alt='AvatarTop')
           h4.text-center.mb-4 Escala 1:4 
-          p.mb-0.text-center (Representación a la cuarta parte del tamaño real.)
+          p.mb-0.text-center (Representación a la cuarta parte del tamaño real).
     
     p.mb-5(data-aos="fade-left") El trazo a escala constituye una herramienta útil para comprender la estructura del patrón antes de su desarrollo definitivo.
 
@@ -435,8 +435,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-3 Se invita a explorar el PDF – Manual de patronaje 
-              p.mb-0 “básico e interpretación de diseños”. 
+              p.mb-3 Se invita a explorar el PDF  
+              p.mb-0 Manual de patronaje  básico e interpretación de diseños. 
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
                 span Descargar 
