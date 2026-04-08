@@ -317,10 +317,10 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/19.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/25.png', alt='')
         .bg10.p-4
-          p.mb-4.mx-lg-4 Dentro del proceso de patronaje, el uso de convenciones gráficas constituye un elemento fundamental para garantizar la correcta interpretación técnica de los patrones y su adecuada aplicación durante las fases de corte y confección. Estos símbolos permiten identificar de manera precisa las características estructurales de cada pieza, facilitando la comunicación entre las diferentes etapas del proceso productivo sin depender exclusivamente de descripciones textuales.
-          p.mb-0.mx-lg-4 Al realizar el despiece de un patrón, cada componente debe incorporar información técnica clara que permita su reconocimiento y correcta utilización. Entre los elementos indispensables se encuentran:
+          p.mb-4.mt-lg-4 Dentro del proceso de patronaje, el uso de convenciones gráficas constituye un elemento fundamental para garantizar la correcta interpretación técnica de los patrones y su adecuada aplicación durante las fases de corte y confección. Estos símbolos permiten identificar de manera precisa las características estructurales de cada pieza, facilitando la comunicación entre las diferentes etapas del proceso productivo sin depender exclusivamente de descripciones textuales.
+          p.mb-lg-2.mb-0 Al realizar el despiece de un patrón, cada componente debe incorporar información técnica clara que permita su reconocimiento y correcta utilización. Entre los elementos indispensables se encuentran:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
