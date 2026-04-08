@@ -196,8 +196,8 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/oBsuCQmODcc?si=SnsGpmQBA2dlFHEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video. TRAZO DE PRENDAS INFERIORES - PANTALÓN
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/66Xxzz4HlTo?si=DXQ3OanIfMEADJRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video. Trazo de prendas inferiores - pantalón
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
@@ -376,15 +376,15 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/xtyPQh3vtuc?si=XY6dabXCAnAocOeJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video. TRAZO DE FALDA Y MODIFICACIÓN DE BÁSICOS DE FALDA
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ZFih5n1YpXQ?si=Ci1PeVu-Dg8ERfw2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video. Trazo de falda y modificación de básicos de falda
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")           
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/NxZQL369p9Q?si=MSh1VMMfOiztXjAW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video. TRAZO DE FALDAS ROTONDAS
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/6yGcZDQMX7g?si=HUtsygz6v8tnR1jG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video. Trazo de faldas rotondas
 
 
 </template>

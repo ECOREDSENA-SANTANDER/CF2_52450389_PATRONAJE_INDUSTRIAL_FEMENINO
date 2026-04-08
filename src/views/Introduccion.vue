@@ -19,19 +19,12 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/intro/2.png' alt='AvatarTop')
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-2.pe-lg-0.d-none.d-lg-block
         img(src='@/assets/curso/intro/3.svg' alt='AvatarTop')
       .col-lg-10.ps-lg-0
         .bg1.p-3
           p.mb-lg-1.mt-lg-2.mx-lg-2 De igual manera, se desarrolla el trazo básico de manga y el análisis de piezas complementarias, componentes que contribuyen a la estructura funcional y constructiva de la prenda. El componente también integra el patronaje de pantalón y falda femenina, considerando los principios técnicos que permiten su correcta construcción y adaptación. Finalmente, se incorpora el proceso de comprobación del patrón base, etapa que permite verificar la correspondencia entre las medidas, la estructura del molde y los requerimientos técnicos, garantizando precisión en el desarrollo del patronaje y su aplicación en los procesos de confección.
-
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")           
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
 
 
 </template>

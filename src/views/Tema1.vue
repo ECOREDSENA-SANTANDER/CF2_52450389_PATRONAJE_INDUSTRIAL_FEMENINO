@@ -121,7 +121,7 @@
               .tarjeta.bg-white.p-4.h-100.mar
                 TarjetaAudio.color-acento-botones.mb-3(
                 texto="Su fundamento se sustenta en tablas de medidas previamente establecidas según regiones, mercados y tipologías de prenda, lo que facilita la estandarización y el proceso de escalado."
-                :audio="require('@/assets/actividad/audio/screen-change.mp3')"
+                :audio="require('@/assets/actividad/audio/podcast_cf2_patronaje_industrial_femenino.mp3')"
             )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                 p.mb-lg-1.mb-4 A partir de una talla base se aplican incrementos proporcionales definidos, permitiendo generar un rango de tallas sin necesidad de rediseñar cada molde, lo cual favorece eficiencia, uniformidad y control en la producción en serie.

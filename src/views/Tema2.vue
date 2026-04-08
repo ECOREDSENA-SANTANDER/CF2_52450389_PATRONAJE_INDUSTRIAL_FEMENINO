@@ -166,8 +166,8 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/euVdaqaTQlY?si=VCGUaB-TViUj8BLu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video. TRAZO DE BLUSA FEMENINA
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/T0O7rqVfFJ0?si=qJioe34_xxADRA8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        figcaption Video. Trazo de blusa femenina
 
     separador
     #t_2_4.titulo-segundo.mb-5
