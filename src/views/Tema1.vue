@@ -128,6 +128,22 @@
                 p.mb-0 Dentro de esta modalidad se contemplan procesos como:
       .col-lg-4.ps-lg-0.d-none.d-lg-block
         img(src="@/assets/curso/tema1/8.svg")
+    
+    p.mb-4 Su fundamento se sustenta en tablas de medidas previamente establecidas según regiones, mercados y tipologías de prenda, lo que facilita la estandarización y el proceso de escalado.
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+      .col-lg-12
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/26.svg', alt='Texto que describa la imagen')
+        .tarjeta.bg5.p-4.rounded-0.h-100
+          .tarjeta.bg-white.p-4.h-100.mar
+            TarjetaAudio.color-acento-botones.mb-0(
+            texto="Pódcast. Patronaje Industrial"
+            :audio="require('@/assets/actividad/audio/podcast_cf2_patronaje_industrial_femenino.mp3')"
+            )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+
+    p.mb-lg-1.mb-4 A partir de una talla base se aplican incrementos proporcionales definidos, permitiendo generar un rango de tallas sin necesidad de rediseñar cada molde, lo cual favorece eficiencia, uniformidad y control en la producción en serie.
+    p.mb-4 Dentro de esta modalidad se contemplan procesos como:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
@@ -179,7 +195,7 @@
                 img(src='@/assets/curso/tema1/12.png', alt='')
               .col-lg-6
                 p.mb-0 Procedimiento semejante al utilizado en el patronaje industrial, aunque permite mayor flexibilidad en la aplicación de fórmulas, ajustes personalizados y modificaciones específicas según la morfología de la persona usuaria.
-      .bg7.p-lg-5.p-4(titulo="Patronaje sobre maniquí maniquí (<em>moulage</em>)")
+      .bg7.p-lg-5.p-4(titulo="Patronaje sobre maniquí (<em>moulage</em>)")
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-10
             .row.justify-content-center.align-items-center.my-lg-0.my-4
