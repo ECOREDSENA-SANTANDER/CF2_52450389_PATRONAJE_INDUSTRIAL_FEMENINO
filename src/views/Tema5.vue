@@ -150,7 +150,7 @@
           ul.lista-ul.mb-0 
             li.d-flex.mb-0
               i.fas.fa-lightbulb
-              p.mb-0.my-2 #[b Revisar líneas:] ½ ancho de pecho, línea de sisa, línea de cintura.
+              p.mb-0.my-2 Revisar líneas: ½ ancho de pecho, línea de sisa, línea de cintura.
             li.d-flex.mb-0
               i.fas.fa-lightbulb
               p.mb-0.my-2 Vértice de la pinza de busto a 2 cm del punto de busto.
