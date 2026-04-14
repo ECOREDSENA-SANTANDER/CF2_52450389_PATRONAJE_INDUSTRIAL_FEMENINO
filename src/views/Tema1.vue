@@ -113,22 +113,6 @@
         .col-lg-6
           p.mb-0 El patronaje industrial parte del estudio antropométrico de la figura corporal en su tridimensionalidad y traduce esta información a representaciones bidimensionales, ya sea mediante trazado manual sobre papel o a través de #[em software] especializado como Audaces 360, Optitex, Gerber o Lectra, herramientas ampliamente empleadas en la industria de la confección. Este procedimiento técnico permite estructurar moldes base, realizar transformaciones y optimizar tiempos de desarrollo.
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-8.pe-lg-0
-        .row.justify-content-center.g-0
-          .col-lg-12
-            .tarjeta.bg5.p-4.rounded-0.h-100
-              .tarjeta.bg-white.p-4.h-100.mar
-                TarjetaAudio.color-acento-botones.mb-3(
-                texto="Su fundamento se sustenta en tablas de medidas previamente establecidas según regiones, mercados y tipologías de prenda, lo que facilita la estandarización y el proceso de escalado."
-                :audio="require('@/assets/actividad/audio/podcast_cf2_patronaje_industrial_femenino.mp3')"
-            )
-                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-                p.mb-lg-1.mb-4 A partir de una talla base se aplican incrementos proporcionales definidos, permitiendo generar un rango de tallas sin necesidad de rediseñar cada molde, lo cual favorece eficiencia, uniformidad y control en la producción en serie.
-                p.mb-0 Dentro de esta modalidad se contemplan procesos como:
-      .col-lg-4.ps-lg-0.d-none.d-lg-block
-        img(src="@/assets/curso/tema1/8.svg")
-    
     p.mb-4 Su fundamento se sustenta en tablas de medidas previamente establecidas según regiones, mercados y tipologías de prenda, lo que facilita la estandarización y el proceso de escalado.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
