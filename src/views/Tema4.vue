@@ -121,6 +121,7 @@
                 td #[b Verificar alineación]
                 td Confirmar que las líneas horizontales y curvas se mantengan alineadas respecto a la línea de quiebre.
                 td Línea de quiebre como eje.
+        figcaption Fuente. SENA, (2025)
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -189,6 +190,7 @@
                 td #[b Verificar continuidad estructural]
                 td Confirmar que las líneas laterales e internas mantengan coherencia con la línea de quiebre y las medidas establecidas.
                 td Línea de quiebre como eje.
+        figcaption Fuente. SENA, (2025)
 
     h4.mb-4(data-aos="fade-left") Video – Trazo de prendas inferiores – pantalón
     
@@ -279,6 +281,7 @@
                 td #[b Verificar proporciones]
                 td Confirmar la correspondencia entre cintura, cadera y largo, garantizando precisión estructural del patrón delantero.
                 td Relación cintura – cadera – largo.        
+        figcaption Fuente. SENA, (2025)
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -357,6 +360,7 @@
                 td #[b Verificar estructura del patrón]
                 td Confirmar la correspondencia entre cintura, cadera y largo de falda.
                 td Relación estructural.
+        figcaption Fuente. SENA, (2025)
         
     h4.mb-4(data-aos="fade-right") Se invita a explorar los siguientes recursos: 
 
