@@ -114,7 +114,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/sg_UbHStwtk?si=lag0jcUb07OZaIkZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video. TRASLADOS DE PINZA CORRECTIVA DE TALLES
+        figcaption Video. Traslados de pinza correctiva de talles
 
 
     separador
@@ -154,7 +154,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/rLYn-8vPNlU?si=Ec6BaUT9VQJ0S1gb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video. ANÁLISIS Y TRAZO DE SISTEMA DE AJUSTE PINZAS Y CORTES
+        figcaption Video. Análisis y trazo de sistema de ajuste pinzas y cortes
 
     p.mb-5(data-aos="fade-left") A continuación, se explica la interpretación de blusa femenina. 
 

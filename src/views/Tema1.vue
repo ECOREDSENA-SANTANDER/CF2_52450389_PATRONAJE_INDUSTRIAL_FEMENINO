@@ -170,35 +170,39 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/11.png' alt='AvatarTop')
 
-    TabsC.color-primario.mb-5(data-aos="fade-left")
-      .bg7.p-lg-5.p-4(titulo="Levantamiento en plano")
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-10
-            .row.justify-content-center.align-items-center.my-lg-0.my-4
-              .col-lg-6.col-md-8.col-10.mb-lg-0.mb-4
-                img(src='@/assets/curso/tema1/12.png', alt='')
-              .col-lg-6
-                p.mb-0 Procedimiento semejante al utilizado en el patronaje industrial, aunque permite mayor flexibilidad en la aplicación de fórmulas, ajustes personalizados y modificaciones específicas según la morfología de la persona usuaria.
-      .bg7.p-lg-5.p-4(titulo="Patronaje sobre maniquí (<em>moulage</em>)")
-        .row.justify-content-center.align-items-center.mb-0
-          .col-lg-10
-            .row.justify-content-center.align-items-center.my-lg-0.my-4
-              .col-lg-6.col-md-8.col-10.mb-lg-0.mb-4
-                img(src='@/assets/curso/tema1/13.png', alt='')
-              .col-lg-6
-                p.mb-0 Técnica que consiste en construir directamente la prenda o su base estructural sobre un maniquí, facilitando el desarrollo de drapeados, plisados y configuraciones complejas. Este método se utiliza con frecuencia en prendas de ceremonia, vestidos de fiesta, sastrería, diseño infantil y propuestas con alto nivel de detalle estructural.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        TabsC.color-primario.mb-0(data-aos="fade-left")
+          .bg7.p-lg-5.p-4(titulo="Levantamiento en plano")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-10
+                .row.justify-content-center.align-items-center.my-lg-0.my-4
+                  .col-lg-6.col-md-8.col-10.mb-lg-0.mb-4
+                    img(src='@/assets/curso/tema1/12.png', alt='')
+                  .col-lg-6
+                    p.mb-0 Procedimiento semejante al utilizado en el patronaje industrial, aunque permite mayor flexibilidad en la aplicación de fórmulas, ajustes personalizados y modificaciones específicas según la morfología de la persona usuaria.
+          .bg7.p-lg-5.p-4(titulo="Patronaje sobre maniquí (<em>moulage</em>)")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-lg-10
+                .row.justify-content-center.align-items-center.my-lg-0.my-4
+                  .col-lg-6.col-md-8.col-10.mb-lg-0.mb-4
+                    img(src='@/assets/curso/tema1/13.png', alt='')
+                  .col-lg-6
+                    p.mb-0 Técnica que consiste en construir directamente la prenda o su base estructural sobre un maniquí, facilitando el desarrollo de drapeados, plisados y configuraciones complejas. Este método se utiliza con frecuencia en prendas de ceremonia, vestidos de fiesta, sastrería, diseño infantil y propuestas con alto nivel de detalle estructural.
     
-    .bg8.p-lg-5.p-4.mb-5(data-aos="fade-right")
-      .row.justify-content-center.align-items-center.mb-0
-        .col-lg-6.mb-lg-0.mb-4
-          .titulo-sexto
-            h5 Figura 3. 
-            | Patronaje sobre maniquí
-          img(src='@/assets/curso/tema1/15.png' alt='Proceso de construcción de una prenda directamente sobre un maniquí. Se trabaja con una pieza de tela fijada con alfileres, marcando líneas guía que siguen las proporciones del cuerpo.')
-        .col-lg-6
-          img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/14.svg', alt='')
-          p.mb-4 Dentro de los procesos productivos del sector confección, las fichas técnicas constituyen instrumentos fundamentales para la organización y estandarización del trabajo. Estos documentos estructuran de manera detallada las especificaciones del producto, los materiales requeridos, la secuencia de ensamblaje y los parámetros técnicos necesarios para su elaboración.
-          p.mb-0 Su implementación facilita la comunicación entre las diferentes áreas involucradas en la producción, favoreciendo coherencia en los procedimientos, control de calidad y uniformidad en los resultados. De este modo, la ficha técnica se consolida como un soporte operativo indispensable para garantizar precisión y consistencia en la fabricación de prendas.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .bg8.p-lg-5.p-4.mb-0
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-6.mb-lg-0.mb-4
+              .titulo-sexto
+                h5 Figura 3. 
+                | Patronaje sobre maniquí
+              img(src='@/assets/curso/tema1/15.png' alt='Proceso de construcción de una prenda directamente sobre un maniquí. Se trabaja con una pieza de tela fijada con alfileres, marcando líneas guía que siguen las proporciones del cuerpo.')
+            .col-lg-6
+              img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/14.svg')
+              p.mb-4 Dentro de los procesos productivos del sector confección, las fichas técnicas constituyen instrumentos fundamentales para la organización y estandarización del trabajo. Estos documentos estructuran de manera detallada las especificaciones del producto, los materiales requeridos, la secuencia de ensamblaje y los parámetros técnicos necesarios para su elaboración.
+              p.mb-0 Su implementación facilita la comunicación entre las diferentes áreas involucradas en la producción, favoreciendo coherencia en los procedimientos, control de calidad y uniformidad en los resultados. De este modo, la ficha técnica se consolida como un soporte operativo indispensable para garantizar precisión y consistencia en la fabricación de prendas.
           
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
