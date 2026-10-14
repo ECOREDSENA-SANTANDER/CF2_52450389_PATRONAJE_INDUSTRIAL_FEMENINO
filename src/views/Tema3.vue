@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-g.color-primario.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 Las piezas complementarias, como cuellos, bolsillos, tapas y otros componentes estructurales, cumplen una función relevante tanto en la configuración formal como en el desempeño funcional de la prenda. Estos elementos contribuyen a definir la estructura, facilitar el uso y responder a requerimientos específicos de diseño y funcionalidad.
@@ -20,12 +20,12 @@
       .col-lg-6
         .row.justify-content-center.align-items.mb-4
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
-            img.my-1(src='@/assets/curso/tema3/2.svg' alt='AvatarTop')
+            img.my-1(src='@/assets/curso/tema3/2.svg')
           .col-lg-10.col-md-10
             p.mb-0 Su construcción técnica se desarrolla a partir del patrón base, considerando proporciones, ubicación y relación con las demás partes que conforman la prenda. La forma, dimensión y posición de estas piezas varían según la intención proyectual, permitiendo integrar soluciones que responden a criterios estructurales, ergonómicos y de uso.
         p.mb-0 De este modo, las piezas complementarias no solo cumplen una función operativa, sino que también participan en la configuración integral del diseño, fortaleciendo la coherencia entre la estructura técnica del patrón y la propuesta constructiva final.
       .col-lg-6.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/3.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema3/3.png')
 
     .tarjeta.color-primario.des.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
@@ -34,9 +34,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-0 PDF- Generalidades del patronaje en piezas complementarias
+              h4.mb-0 PDF- Generalidades de las piezas complementarias en el patronaje industrial femenino 
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/6_Generalidades_de_piezas_complementarias_en_el_patronaje_femenino.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/6_Generalidades_de_las_piezas_complementarias_en_el_patronaje_industrial_femenino.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
 

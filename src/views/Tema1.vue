@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 El patronaje traduce las formas tridimensionales del cuerpo a superficies bidimensionales, de modo que la arquitectura de la prenda quede trazada sobre planos precisos. Este proceso constituye la fase estructural del diseño de moda: a partir de líneas, contornos y ejes de aplome se generan los moldes que, al cortarse y ensamblarse, recuperan el volumen original con exactitud. Un buen patronaje no solo garantiza ajuste y comodidad, sino que también optimiza el consumo de material, facilita el escalado de tallas y sienta las bases para cualquier transformación creativa posterior.
@@ -82,28 +82,14 @@
                 td Acelera futuras colecciones y respalda la trazabilidad documental.
         figcaption Fuente: SENA, (2025)
 
-    .tarjeta.color-primario.des.p-4.mb-5(data-aos="fade-right")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img.img-a.img-t.mx-lg-2(src="@/assets/curso/tema1/5.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4.mb-3 Conceptos de prepatronaje
-              p.mb-0 Consulta las generalidades del patronaje y sus diferentes métodos.
-            .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Pasos_para_definir_el_patronaje.pdf')" target="_blank")
-                span Descargar 
-                i.fas.fa-file-download
-
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
-        img(src='@/assets/curso/tema1/6.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema1/6.png')
 
     p.mb-5(data-aos="fade-right") El patronaje se clasifica en dos grandes modalidades según su finalidad productiva: patronaje industrial y patronaje sobre medidas. La primera se orienta a la fabricación en serie bajo parámetros estandarizados, mientras que la segunda responde a procesos personalizados que atienden características específicas de una persona usuaria.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 A. Patronaje industrial
     
     .bg4.p-4.mb-5(data-aos="fade-right")
@@ -117,7 +103,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-12
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/26.svg', alt='Texto que describa la imagen')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/26.svg')
         .tarjeta.bg5.p-4.rounded-0.h-100
           .tarjeta.bg-white.p-4.h-100.mar
             TarjetaAudio.color-acento-botones.mb-0(
@@ -155,20 +141,20 @@
               p.mb-0.my-2 Desarrollo de propuestas alineadas con gamas comerciales y segmentos del sistema moda.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 B. Patronaje sobre medidas
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         .row.justify-content-center.align-items.mb-4
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
-            img.my-1(src='@/assets/curso/tema1/10.svg' alt='AvatarTop')
+            img.my-1(src='@/assets/curso/tema1/10.svg')
           .col-lg-10.col-md-10
             p.mb-0 El patronaje sobre medidas se orienta a la elaboración de prendas ajustadas a las características específicas de una persona usuaria, priorizando adaptación ergonómica, precisión estructural y funcionalidad. Esta modalidad se emplea en contextos donde se requiere exclusividad y ajuste personalizado, particularmente en marcas o talleres dirigidos a públicos con perfiles de consumo definidos y expectativas elevadas en términos de detalle y acabado.
         p.mb-4 El procedimiento inicia con la toma rigurosa de medidas antropométricas individuales, seguida de la construcción de una prenda de prueba, comúnmente elaborada en un textil provisional, cuya finalidad es verificar proporciones, caídas y ajustes. Posteriormente, se realiza una sesión de prueba para identificar posibles correcciones antes de confeccionar la versión definitiva, garantizando coherencia entre estructura corporal y solución constructiva.
         p.mb-0 En esta modalidad se aplican principalmente dos técnicas:
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/11.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema1/11.png')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -178,7 +164,7 @@
               .col-lg-10
                 .row.justify-content-center.align-items-center.my-lg-0.my-4
                   .col-lg-6.col-md-8.col-10.mb-lg-0.mb-4
-                    img(src='@/assets/curso/tema1/12.png', alt='')
+                    img(src='@/assets/curso/tema1/12.png')
                   .col-lg-6
                     p.mb-0 Procedimiento semejante al utilizado en el patronaje industrial, aunque permite mayor flexibilidad en la aplicación de fórmulas, ajustes personalizados y modificaciones específicas según la morfología de la persona usuaria.
           .bg7.p-lg-5.p-4(titulo="Patronaje sobre maniquí (<em>moulage</em>)")
@@ -186,7 +172,7 @@
               .col-lg-10
                 .row.justify-content-center.align-items-center.my-lg-0.my-4
                   .col-lg-6.col-md-8.col-10.mb-lg-0.mb-4
-                    img(src='@/assets/curso/tema1/13.png', alt='')
+                    img(src='@/assets/curso/tema1/13.png')
                   .col-lg-6
                     p.mb-0 Técnica que consiste en construir directamente la prenda o su base estructural sobre un maniquí, facilitando el desarrollo de drapeados, plisados y configuraciones complejas. Este método se utiliza con frecuencia en prendas de ceremonia, vestidos de fiesta, sastrería, diseño infantil y propuestas con alto nivel de detalle estructural.
     
@@ -266,7 +252,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5
-        img(src='@/assets/curso/tema1/16.svg', alt='')
+        img(src='@/assets/curso/tema1/16.svg')
       .col-lg-7
         .bg9.p-lg-5.p-4
           p.mb-0.mb-lg-2.mt-lg-3.mx-lg-4 Para garantizar el desarrollo de una prenda que responda a los requerimientos específicos de la persona usuaria, resulta necesario seguir una secuencia organizada de procedimientos que permitan asegurar coherencia técnica, precisión estructural y calidad en el resultado final. Esta secuencia facilita la correcta interpretación de las medidas corporales, la construcción adecuada de los patrones y la ejecución eficiente del proceso de confección. En este sentido, se establece el siguiente procedimiento:
@@ -278,8 +264,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-3 Pasos que se deben seguir para realizar el procedimiento de patronaje
-              p.mb-0 Se invita a explorar el PDF – Pasos para definir el patronaje.
+              h3.mb-3 Pasos para definir el patronaje  
+              p.mb-0 Sigue los pasos que se deben seguir para realizar el procedimiento de patronaje
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Pasos_para_definir_el_patronaje.pdf')" target="_blank")
                 span Descargar 
@@ -294,12 +280,12 @@
       .col-lg-7
         .row.justify-content-center.align-items.mb-4
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
-            img.my-1(src='@/assets/curso/tema1/17.svg' alt='AvatarTop')
+            img.my-1(src='@/assets/curso/tema1/17.svg')
           .col-lg-10.col-md-10
             p.mb-0 El Manual de patronaje del SENA constituye un documento técnico elaborado por especialistas en el área de confección, con el propósito de establecer una metodología estructurada para el desarrollo de patrones a partir del análisis antropométrico y funcional del cuerpo humano. Este recurso orienta la comprensión de los principios técnicos del patronaje, facilitando la interpretación de medidas corporales y su traducción en estructuras bidimensionales aplicables a la elaboración de prendas.
         p.mb-0 Su contenido se organiza de manera progresiva, permitiendo fortalecer las competencias relacionadas con la construcción de básicos, el desarrollo de moldes y la aplicación de procesos de escalado, conforme a los estándares formativos y productivos del sector confección. Para ampliar la información, se recomienda consultar el manual en su versión oficial, disponible a través de los medios institucionales del SENA.
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/18.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema1/18.png')
 
     .tarjeta.color-primario.des.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-around.align-items-center
@@ -308,10 +294,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-3 Manual de patronaje del SENA
-              p.mb-0 Se invita a explorar el PDF – “Manual de patronaje”.
+              h3.mb-3 PDF – Presentación del Manual de patronaje “básico e interpretación de diseños” 
+              p.mb-0 Conoce los detalles a tener en cuenta en el uso del manual de patronaje SENA
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_Manual_de_patronaje_del_SENA.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_Presentacion_del_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
 
@@ -321,14 +307,14 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/25.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/25.png')
         .bg10.p-4
           p.mb-4.mt-lg-4 Dentro del proceso de patronaje, el uso de convenciones gráficas constituye un elemento fundamental para garantizar la correcta interpretación técnica de los patrones y su adecuada aplicación durante las fases de corte y confección. Estos símbolos permiten identificar de manera precisa las características estructurales de cada pieza, facilitando la comunicación entre las diferentes etapas del proceso productivo sin depender exclusivamente de descripciones textuales.
           p.mb-lg-2.mb-0 Al realizar el despiece de un patrón, cada componente debe incorporar información técnica clara que permita su reconocimiento y correcta utilización. Entre los elementos indispensables se encuentran:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/20.png', alt='')
+        img(src='@/assets/curso/tema1/20.png')
       .col-lg-9
         .row.justify-content-center.align-items-start.mb-4.mb-lg-0
           .col-lg-5.col-md-6
@@ -379,21 +365,21 @@
         .h-100.bg13.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-3
-              img.img-a.img-t(src='@/assets/curso/tema1/21.png' alt='AvatarTop')
+              img.img-a.img-t(src='@/assets/curso/tema1/21.png')
           h4.text-center.mb-4 Escala 1:1 
           p.mb-0.text-center (Representación en tamaño real).
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg13.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-3
-              img.img-a.img-t(src='@/assets/curso/tema1/22.png' alt='AvatarTop')
+              img.img-a.img-t(src='@/assets/curso/tema1/22.png')
           h4.text-center.mb-4  Escala 1:2 
           p.mb-0.text-center (Representación a la mitad del tamaño real).
       .col-lg-3.col-md-6
         .h-100.bg14.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-3
-              img.img-a.img-t(src='@/assets/curso/tema1/23.png' alt='AvatarTop')
+              img.img-a.img-t(src='@/assets/curso/tema1/23.png')
           h4.text-center.mb-4 Escala 1:4 
           p.mb-0.text-center (Representación a la cuarta parte del tamaño real).
     
@@ -439,10 +425,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-3 Se invita a explorar el PDF  
-              p.mb-0 Manual de patronaje  básico e interpretación de diseños. 
+              h4.mb-0 PDF – Manual de patronaje “básico e interpretación de diseños” 
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
 

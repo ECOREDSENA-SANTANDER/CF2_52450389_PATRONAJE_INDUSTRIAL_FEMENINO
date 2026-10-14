@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-g.color-acento-botones.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema5/1.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema5/1.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 La comprobación del patrón base consiste en verificar que las medidas, líneas y proporciones del molde correspondan correctamente a las dimensiones corporales y a los parámetros técnicos establecidos.
@@ -22,7 +22,7 @@
     p.mb-5(data-aos="fade-right") Este proceso tiene por objetivo verificar que el corpiño y la manga básica en talla 8 reproducen fielmente las medidas antropométricas y holguras estándar, garantizando equilibrio, comodidad y viabilidad industrial antes de escalar o diseñar transformaciones. Por lo anterior, se partirá del patrón del corpiño y manga básica.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 A. Materiales, insumos y herramientas
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -61,7 +61,7 @@
         figcaption Fuente: SENA, (2025)
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 B. Requerimientos previos necesarios. 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -99,7 +99,7 @@
                 td N / A
         figcaption Fuente: SENA, (2025)
       .col-lg-7.d-none.d-lg-block
-        img(src='@/assets/curso/tema5/2.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema5/2.png')
     
     .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")
       .col-lg-5.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
@@ -135,7 +135,7 @@
               p.mb-0.my-2.text-white Confirmar perpendicularidad de “centro frente” y “centro atrás” respecto a la línea de cintura.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 C. Preparación del patrón base
     
     .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
@@ -145,7 +145,7 @@
         .h-100.bg24.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-0
-              img.img-a.img-t(src='@/assets/curso/tema5/6.svg' alt='AvatarTop')
+              img.img-a.img-t(src='@/assets/curso/tema5/6.svg')
           h4.text-center.mb-4 Corpiño
           ul.lista-ul.mb-0 
             li.d-flex.mb-0
@@ -161,7 +161,7 @@
         .h-100.bg25.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-12.mb-4.my-0
-              img.img-a.img-t(src='@/assets/curso/tema5/7.svg' alt='AvatarTop')
+              img.img-a.img-t(src='@/assets/curso/tema5/7.svg')
           h4.text-center.mb-4 Manga
           ul.lista-ul.mb-0 
             li.d-flex.mb-0
@@ -175,7 +175,7 @@
               p.mb-0.my-2 Puño: 24 cm (12 cm cada lado) y bajo recto.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 D. Proceso de corte
     
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
@@ -207,10 +207,10 @@
                 td Cortar con tijeras sin levantar la tela. Etiquetar cada pieza (F, B, Manga).
         figcaption Fuente: SENA, (2025)
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema5/8.svg' alt='AvatarTop')
+        img(src='@/assets/curso/tema5/8.svg')
     
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 E. Construcción del prototipo
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -287,7 +287,7 @@
                       td Vapor medio.
               figcaption Fuente: SENA, (2025)
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema5/9.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema5/9.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -295,7 +295,7 @@
           p.mb-0 #[b Nota:] #[em stay-stitch] es un término utilizado en el patronaje que hace referencia a una línea de puntadas que se cose en un margen de costura que comprende una sola capa de tela para evitar que los bordes curvos o al sesgo se estiren.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 F. Prueba y evaluación 
 
     .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
@@ -383,7 +383,7 @@
         figcaption Fuente: SENA, (2025)
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 G. Transferencia de ajustes
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -411,10 +411,10 @@
                 span e
               p.mb-1 Repetir corte y prueba si cambios > 1 cm o afectan sisa / escote / corona.
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema5/10.png', alt='')
+        img(src='@/assets/curso/tema5/10.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 H. Criterios de aprobación final 
 
     .bg4.p-4.mb-5(data-aos="fade-right")
@@ -441,7 +441,7 @@
               p.mb-0 Costuras verticales y horizontales equilibradas.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 I. Registro y archivo de las observaciones
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
@@ -471,15 +471,15 @@
                 td Cartapacio rígido rotulado.
         figcaption Fuente: SENA, (2025)
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema5/12.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema5/12.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 J. Recomendaciones
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema5/13.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema5/13.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -580,12 +580,12 @@
         figcaption Fuente: SENA, (2025)
         
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 K. Lista de abreviaturas y símbolos a tener en cuenta
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema5/14.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema5/14.png')
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12

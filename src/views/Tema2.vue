@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/1.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 La construcción del patronaje en prendas femeninas se fundamenta en la elaboración de patrones base, desarrollados a partir de medidas anatómicas y criterios técnicos de proporcionalidad y escalado. Estas bases constituyen la estructura inicial que representa la configuración corporal, permitiendo establecer moldes tanto para prendas superiores como inferiores. Su función es servir como soporte técnico para el desarrollo de diseños, por lo que no se utilizan directamente en el proceso de corte sobre tela, dado que requieren la incorporación de elementos como desahogos, amplitudes, líneas de diseño o transformaciones específicas.
@@ -27,15 +27,15 @@
       .col-lg-7
         .row.justify-content-center.align-items.mb-4
           .col-lg-2.col-md-2.col-5.mb-lg-0.mb-4
-            img.my-1(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
+            img.my-1(src='@/assets/curso/tema2/2.svg')
           .col-lg-10.col-md-10
             p.mb-0 El control del volumen en las prendas se logra mediante la aplicación de recursos técnicos como las pinzas y otros sistemas de ajuste, los cuales permiten adaptar la estructura plana del patrón a la forma tridimensional del cuerpo. Estos elementos facilitan la distribución del excedente de material, contribuyendo a una mejor correspondencia entre la prenda y la anatomía corporal.
         p.mb-0 La metodología empleada para el desarrollo del corpiño básico sigue una secuencia estructurada que facilita la comprensión del proceso, independientemente de la línea o aplicación posterior. Este procedimiento permite consolidar las bases necesarias para la transformación y desarrollo de diferentes tipologías de prendas.
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/3.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema2/3.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Trazo de la base superior: descripción y medidas
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -47,7 +47,7 @@
           .bloque-texto-g__texto.p-4.p-lg-5.brt
             p.mb-0 La base superior corresponde al patrón que representa la estructura corporal desde la región del cuello hasta la línea de cintura, incorporando las proporciones anatómicas necesarias para su correcta construcción. Este molde constituye el fundamento técnico para el desarrollo de prendas como blusas, camisetas, chaquetas, chalecos, corpiños y vestidos.
     .d-none
-      img(src='@/assets/curso/tema2/t2.png' alt='')
+      img(src='@/assets/curso/tema2/t2.png')
 
     p.mb-5(data-aos="fade-left") La adecuada elaboración de esta base permite establecer una estructura equilibrada, facilitando su posterior transformación según los requerimientos de diseño, funcionalidad y uso. Su correcta construcción favorece el ajuste, la estabilidad y la coherencia estructural de la prenda final dentro del proceso de patronaje industrial femenino.
 
@@ -58,8 +58,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-2 #[b Se invita a explorar el PDF]
-              p.mb-0 Pasos para el trazo de la base superior.
+              h4.mb-0 PDF - Pasos para el trazo de la base superior
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/4_Pasos_para_el_trazo_de_la_base_superior.pdf')" target="_blank")
                 span Descargar 
@@ -74,10 +73,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-2 #[b Se invita a explorar el PDF] - Manual de patronaje básico e interpretación de diseños.
-              p.mb-0 Patrón base superior femenino. Ir a la página 20 a 25.
+              h4.mb-0 PDF – Manual de patronaje “básico e interpretación de diseños” 
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_diseños.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
 
@@ -93,11 +91,11 @@
           p.mb-0 El traslado de pinzas corresponde a un procedimiento técnico mediante el cual el volumen concentrado en una pinza puede redistribuirse hacia diferentes zonas del patrón, manteniendo el mismo nivel de ajuste. Este proceso se realiza tomando como referencia el punto de busto, considerado eje estructural o punto de rotación, desde el cual se puede reubicar la pinza hacia el costado, la sisa, el escote, el hombro o la cintura, según las necesidades del diseño.
         p.mb-0 Esta técnica permite desarrollar diversas configuraciones formales, facilitando la incorporación de recursos constructivos como cortes, pliegues, frunces o líneas estructurales que responden a criterios funcionales o estéticos. En algunos casos, la pinza se integra de manera visible como parte del diseño, mientras que en otros se incorpora dentro de líneas de corte, permaneciendo como un elemento estructural interno.
       .col-lg-4.col-md-7.col-10
-        img(src='@/assets/curso/tema2/5.png' alt='')
+        img(src='@/assets/curso/tema2/5.png')
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/6.png' alt='')
+        img(src='@/assets/curso/tema2/6.png')
       .col-lg-4
         .bg15.p-lg-5.p-4.mb-lg-0.mb-4
           p.mb-0.mb-lg-2.mt-lg-3 Toda pinza debe finalizar antes de alcanzar el punto de busto, conservando una distancia de seguridad que permita mantener la correcta distribución del volumen sin generar deformaciones en la estructura del patrón.
@@ -123,10 +121,10 @@
     
     .bg16.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema2/8.png', alt='')
+        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema2/8.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/9.svg', alt='')
+            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/9.svg')
             p.mb-0(data-aos="fade-left") En el desarrollo técnico del patronaje, las pinzas constituyen un recurso estructural esencial que permite adaptar la superficie plana del patrón a la configuración tridimensional del cuerpo. Su aplicación cumple una doble función: por una parte, facilita el ajuste de la prenda, y por otra, permite controlar y distribuir los volúmenes de manera precisa, garantizando coherencia entre la estructura corporal y la forma final del molde.
 
     .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
@@ -135,7 +133,7 @@
           p.mb-0.mx-lg-2.my-lg-1 En el patronaje femenino, el estudio de las pinzas se fundamenta en el análisis de los contornos corporales principales, especialmente busto, cintura y cadera. Estas zonas concentran las variaciones anatómicas más significativas y establecen puntos de referencia indispensables para la construcción de patrones base. 
           p.mb-0.mx-lg-2 A partir de estos contornos, se define la organización estructural del molde y se determina la distribución del volumen necesario para lograr un adecuado nivel de ajuste.
       .col-lg-3.ps-lg-0.pe-lg-0.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/10.svg', alt='')
+        img(src='@/assets/curso/tema2/10.svg')
       .col-lg-4.ps-lg-0
         .bg18.h-100.p-4
           p.mb-0.mx-lg-2.my-lg-3 Desde una perspectiva técnica, la pinza responde a un principio matemático derivado de la diferencia entre medidas corporales en distintas zonas, lo que genera un excedente que debe redistribuirse mediante su incorporación al patrón. Este procedimiento permite que el molde conserve estabilidad dimensional y correspondencia con la morfología corporal.
@@ -174,7 +172,7 @@
       h2 2.4 Trazo básico de manga
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Medidas necesarias para trazar la cabeza de manga
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -194,7 +192,7 @@
               i.fas.fa-lightbulb
               p.mb-0.my-2 Largo total de la manga.
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/11.png', alt='')
+        img(src='@/assets/curso/tema2/11.png')
   
     .tarjeta.color-primario.des.p-4.mb-5(data-aos="fade-left")
       .row.justify-content-around.align-items-center
@@ -203,7 +201,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-3 PDF- Aspectos clave en el trazo de la manga
+              h3.mb-3 PDF- Aspectos clave en el trazo de la manga
               p.mb-0 Conoce cómo la anatomía y la ergonomía influyen en el trazo del patrón de la manga para mujer.
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/5_Aspectos_clave_para_el_trazo_de_la_manga.pdf')" target="_blank")

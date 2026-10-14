@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-g.color-primario.t4.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema4/1.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema4/1.png')})`}"
           )
           .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
             p.mb-0 El patronaje de pantalón y falda femenina corresponde al proceso técnico mediante el cual se construyen los moldes base que representan la estructura corporal desde la cintura hasta la región inferior del cuerpo. Este procedimiento se fundamenta en el análisis de medidas antropométricas como cintura, cadera, tiro y largo, las cuales permiten establecer proporciones precisas y garantizar una adecuada adaptación de la prenda. 
@@ -134,7 +134,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
-        img(src='@/assets/curso/tema4/5.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema4/5.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -202,13 +202,13 @@
         figcaption Video. Trazo de prendas inferiores - pantalón
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Trazo de la falda
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4
         .bg21.p-4.p-lg-5.mb-lg-0.mb-4
-          img.img-t.img-a.mb-lg-2.mb-4(src='@/assets/curso/tema4/7.svg' alt='AvatarTop')
+          img.img-t.img-a.mb-lg-2.mb-4(src='@/assets/curso/tema4/7.svg')
           p.mb-0 El trazo de la falda es el proceso técnico mediante el cual se construye el patrón base a partir de medidas corporales como cintura, cadera y largo deseado.
       .col-lg-8
         .bg2.p-4
@@ -294,7 +294,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
-        img(src='@/assets/curso/tema4/9.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema4/9.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
