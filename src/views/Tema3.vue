@@ -34,7 +34,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-0 PDF- Generalidades de las piezas complementarias en el patronaje industrial femenino 
+              p.mb-0 PDF- Generalidades de las piezas complementarias en el patronaje industrial femenino 
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/6_Generalidades_de_las_piezas_complementarias_en_el_patronaje_industrial_femenino.pdf')" target="_blank")
                 span Descargar 

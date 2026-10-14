@@ -425,7 +425,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-0 PDF – Manual de patronaje “básico e interpretación de diseños” 
+              p.mb-0 PDF – Manual de patronaje “básico e interpretación de diseños” 
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
                 span Descargar 

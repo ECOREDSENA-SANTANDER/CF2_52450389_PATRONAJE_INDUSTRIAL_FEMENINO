@@ -58,7 +58,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-0 PDF - Pasos para el trazo de la base superior
+              p.mb-0 PDF - Pasos para el trazo de la base superior
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/4_Pasos_para_el_trazo_de_la_base_superior.pdf')" target="_blank")
                 span Descargar 
@@ -73,7 +73,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-0 PDF – Manual de patronaje “básico e interpretación de diseños” 
+              p.mb-0 PDF – Manual de patronaje “básico e interpretación de diseños” 
             .col-sm-auto.pe-lg-4
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
                 span Descargar 
