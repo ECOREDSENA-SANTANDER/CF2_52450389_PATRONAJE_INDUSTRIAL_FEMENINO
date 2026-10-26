@@ -137,7 +137,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF2_52450389_DU.zip',
+        download: 'downloads/52450389_CF02_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -271,7 +271,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -326,7 +327,7 @@ export default {
         },
         {
           nombre: 'Sandra Liliana Cristancho Cruz',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

@@ -267,7 +267,7 @@
               h3.mb-3 Pasos para definir el patronaje  
               p.mb-0 Sigue los pasos que se deben seguir para realizar el procedimiento de patronaje
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Pasos_para_definir_el_patronaje.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_Pasos_para_definir_el_patronaje.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
     
@@ -297,7 +297,7 @@
               h3.mb-3 PDF – Presentación del Manual de patronaje “básico e interpretación de diseños” 
               p.mb-0 Conoce los detalles a tener en cuenta en el uso del manual de patronaje SENA
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/2_Presentacion_del_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_Presentacion_del_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
 
@@ -427,7 +427,7 @@
             .col.mb-3.mb-sm-0
               p.mb-0 PDF – Manual de patronaje “básico e interpretación de diseños” 
             .col-sm-auto.pe-lg-4
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/3_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_3_Manual_de_patronaje_basico_e_interpretacion_de_disenos.pdf')" target="_blank")
                 span Descargar 
                 i.fas.fa-file-download
 
